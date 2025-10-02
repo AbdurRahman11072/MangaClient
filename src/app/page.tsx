@@ -1,7 +1,8 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <main className=" md:flex gap-5">
+      <div>CONTENT</div>
+      <div>Side Content</div>
+    </main>
   );
 }
