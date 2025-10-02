@@ -3,7 +3,7 @@ import LatestHitCoimc from "@/components/Latest_Hit_Comic/latesHitComic";
 
 export default function Home() {
   return (
-    <main className=" md:flex gap-5 p-1">
+    <main className=" md:flex gap-5 p-2">
       <div className="md:w-[70%] lg:w-[75%] space-y-5">
         <NewChapter_FollowedComic />
         <LatestHitCoimc />

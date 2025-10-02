@@ -6,7 +6,7 @@ import { Series } from "../types";
 
 const NewChapter_FollowedComic = () => {
   return (
-    <div>
+    <div className="">
       <Title
         title="New chapter from followed comic's"
         subtitle="The Story Continues... Read the New Chapter Now!"
