@@ -40,13 +40,13 @@ const LatestHitCoimcCards = ({ Series }: seriesCardProps) => {
                 />
               </div>
               <div className="px-2 ">
-                <p className="h-16 flex justify-center  font-semibold  items-center-safe">
+                <p className="h-16 flex justify-center  font-semibold  items-center-safe ">
                   <span className=" mr-2 md:mr-3 text-3xl font-bold md:text-3xl ">
                     {index + 1}
                   </span>
-                  <span className="text-[16px] lg:text-[18px]">
-                    {series.title.length > 25
-                      ? series.title.slice(0, 25) + "..."
+                  <span className="text-xs md:text-sm">
+                    {series.title.length > 35
+                      ? series.title.slice(0, 35) + "..."
                       : series.title}
                   </span>
                 </p>

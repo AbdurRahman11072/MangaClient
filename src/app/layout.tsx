@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-7xl mx-auto pb-10`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-[1440px] mx-auto pb-10`}
       >
         <NavigationMenu />
         {children}

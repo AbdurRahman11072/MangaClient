@@ -29,27 +29,30 @@ const SeriesCards = ({ Series }: seriesCardProps) => {
             key={series.id}
             className=" pl-2 h-full basis-[180px] md:basis-[200px] lg:md:basis-[180px]"
           >
-            <div className="bg-slate-800 rounded-lg transition-all duration-300 overflow-hidden group">
+            <div className="rounded-lg transition-all duration-300 overflow-hidden group">
               <div className="relative h-52 md:h-68 lg:h-52 overflow-hidden">
                 <Image
                   src={series.coverImage}
                   alt={`${series.title} is loading`}
                   fill
-                  className="object-cover md:group-hover:scale-110 transition-all duration-200"
+                  className="object-cover md:group-hover:scale-110 transition-all duration-200 rounded-lg"
                 />
               </div>
-              <div className="px-0.5 py-1 ">
-                <div className="flex text-sm justify-between md:space-y-1 ">
+              <div className="px-0.5 py-1 space-y-1">
+                {/* timeAgo */}
+                <div className="flex text-xs justify-between ">
                   <p className="font-semibold">Ch.{series.chapter}</p>
                   <p className="text-slate-300">{series.timeAgo}</p>
                 </div>
-                <p className="h-14 font-semibold text-[16px] text-center">
-                  {series.title.length > 35
-                    ? series.title.slice(0, 35) + "..."
+                {/* title */}
+                <p className="h-10 font-semibold text-sm text-center">
+                  {series.title.length > 45
+                    ? series.title.slice(0, 45) + "..."
                     : series.title}
                 </p>
+                {/* button */}
                 <div className="flex justify-center">
-                  <button className="w-[98%] p-0.5 md:p-1 bg-slate-700 hover:bg-slate-900  rounded-sm font-semibold ">
+                  <button className="w-[98%] p-1 bg-slate-700 hover:bg-slate-900  rounded-sm font-semibold text-sm ">
                     Continue: {series.continueChapter}
                   </button>
                 </div>
