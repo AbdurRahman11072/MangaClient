@@ -38,7 +38,7 @@ const menu = [
 
 const BottomNavbar = () => {
   return (
-    <div className="w-full h-16  fixed bottom-0 z-50 bg-background text-white border-t border-t-white/10 px-6 py-5  md:hidden">
+    <div className="w-full h-16  fixed -bottom-1 z-50 bg-background text-white border-t border-t-white/10 px-6 py-5  md:hidden">
       <ul className="flex h-full gap-4 justify-between items-center font-sans  ">
         {menu.map((item) => (
           <Link
