@@ -52,7 +52,7 @@ const SeriesCards = ({ Series }: seriesCardProps) => {
                 </p>
                 {/* button */}
                 <div className="flex justify-center">
-                  <button className="w-[98%] p-1 bg-slate-700 hover:bg-slate-900  rounded-sm font-semibold text-sm ">
+                  <button className="w-[98%] p-1 bg-slate-700 md:hover:bg-slate-600  rounded-sm font-semibold text-sm ">
                     Continue: {series.continueChapter}
                   </button>
                 </div>
