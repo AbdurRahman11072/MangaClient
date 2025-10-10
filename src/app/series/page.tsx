@@ -1,7 +1,13 @@
+import AllSeriesCards from "@/components/AllSeries/allSeriesCards";
+import { Series } from "@/components/types";
 import React from "react";
 
-const SeriesPage = () => {
-  return <div></div>;
+const AllSeriesPage = () => {
+  return (
+    <div>
+      <AllSeriesCards Series={Series} />
+    </div>
+  );
 };
 
-export default SeriesPage;
+export default AllSeriesPage;

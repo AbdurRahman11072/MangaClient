@@ -51,7 +51,7 @@ export const Series: NewChapterOfBookmark[] = [
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/09/2025-09-06-03-00-24-1757170824260.jpeg",
     continueChapter: 32,
-    status: "Ongoing",
+    status: "Complete",
   },
   {
     id: "5",

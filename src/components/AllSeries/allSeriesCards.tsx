@@ -12,7 +12,7 @@ const AllSeriesCards = ({ Series }: seriesCardProps) => {
       {Series.map((series) => (
         <div key={series.id} className=" space-y-1.5">
           {/* cover image  */}
-          <div className="w-full h-56 md:h-60 xl:h-64 overflow-hidden rounded-lg">
+          <div className="w-full h-56  md:h-60 xl:h-64 overflow-hidden rounded-lg">
             <Image
               src={series.coverImage}
               alt={`${series.title} cover image`}

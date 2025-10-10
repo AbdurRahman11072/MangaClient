@@ -179,8 +179,7 @@ export default function FooterSection() {
           </Link>
         </div>
         <span className="text-muted-foreground block text-center text-sm">
-          {" "}
-          © {new Date().getFullYear()} Tailark, All rights reserved
+          \ © {new Date().getFullYear()} Comico, All rights reserved
         </span>
       </div>
     </footer>
