@@ -1,6 +1,7 @@
 import React from "react";
 import { NewChapterOfBookmark } from "../types";
 import Image from "next/image";
+import { Star } from "lucide-react";
 
 interface seriesCardProps {
   Series: NewChapterOfBookmark[];
@@ -22,6 +23,24 @@ const AllSeriesCards = ({ Series }: seriesCardProps) => {
             />
           </div>
           {/* title of the series  */}
+          <div className="flex justify-between sm:px-1">
+            <h1 className="flex gap-1 items-center font-semibold">
+              <Star size={14} color="orange" fill="orange" /> 5
+            </h1>
+
+            <h1 className="flex gap-1 items-center">
+              <div
+                className={`w-[10px] h-[10px] rounded-full  ${
+                  series.status === "Ongoing"
+                    ? "bg-green-600"
+                    : series.status === "Complete"
+                    ? "bg-amber-600"
+                    : "bg-red-600"
+                }`}
+              ></div>
+              <span className="font-semibold">{series.status}</span>
+            </h1>
+          </div>
           <h1 className="h-12 sm:h-14 md:h-12 flex justify-center items-center">
             {series.title.length > 50
               ? series.title.slice(0, 50) + " ..."

@@ -14,19 +14,19 @@ const HomeSeriesCards = ({ Series }: seriesCardProps) => {
           key={series.id}
           className="w-[100%] sm:w-[70%] md:w-[49%] lg:w-[45%] xl:w-[32.50%] flex gap-2 bg-slate-600/30 rounded-lg p-2"
         >
-          <div className="w-[50%] h-60 sm:h-64 md:h-60 lg:h-64 rounded-lg overflow-hidden ">
+          <div className="w-[165px] h-56 sm:h-64 md:h-60 lg:h-64 rounded-lg overflow-hidden bg-white">
             <Image
               src={series.coverImage}
               alt={`${series.title} cover image`}
               width={400}
               height={400}
-              className="object-cover"
+              className="object-contain"
             />
           </div>
           <div className="w-[50%] space-y-2">
             <h1 className="text-sm font-bold">
-              {series.title.length > 45
-                ? series.title.slice(0, 45) + "..."
+              {series.title.length > 40
+                ? series.title.slice(0, 40) + "..."
                 : series.title}
             </h1>
             <div className="flex justify-between sm:px-1">

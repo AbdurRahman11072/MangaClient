@@ -13,7 +13,7 @@ export const Series: NewChapterOfBookmark[] = [
     id: "1",
     title: "Hiding a Logistics Center in The Apocalypse",
     chapter: 60,
-    timeAgo: "19 hours ago",
+    timeAgo: "19 hours  ",
     source: "ArcaneScans",
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/07/2025-07-02-07-34-46-1751484886338.webp",
@@ -24,7 +24,7 @@ export const Series: NewChapterOfBookmark[] = [
     id: "2",
     title: "Office Worker in the Ice Age",
     chapter: 13,
-    timeAgo: "14 hours ago",
+    timeAgo: "14 hours  ",
     source: "Thunderscans",
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/05/2025-05-11-11-52-56-1746964376547.jpg",
@@ -35,7 +35,7 @@ export const Series: NewChapterOfBookmark[] = [
     id: "3",
     title: "Black Haze (2025)",
     chapter: 41,
-    timeAgo: "22 hours ago",
+    timeAgo: "22 hours  ",
     source: "ArcaneScans",
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/05/2025-05-11-11-52-56-1746964376547.jpg",
@@ -46,7 +46,7 @@ export const Series: NewChapterOfBookmark[] = [
     id: "4",
     title: "The Genius Who Sees Through Everything",
     chapter: 24,
-    timeAgo: "1 day ago",
+    timeAgo: "1 day  ",
     source: "REST SCANS",
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/09/2025-09-06-03-00-24-1757170824260.jpeg",
@@ -57,7 +57,7 @@ export const Series: NewChapterOfBookmark[] = [
     id: "5",
     title: "The Awakening of Light Magic",
     chapter: 62,
-    timeAgo: "2 days ago",
+    timeAgo: "2 days  ",
     source: "REST SCANS",
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/07/2025-07-04-10-29-52-1751624992766.png",
@@ -68,7 +68,7 @@ export const Series: NewChapterOfBookmark[] = [
     id: "6",
     title: "The Investor Who Sees the Future",
     chapter: 60,
-    timeAgo: "3 days ago",
+    timeAgo: "3 days  ",
     source: "Thunderscans",
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/07/2025-08-24-03-34-03-1756049643948.jpeg",
@@ -79,7 +79,7 @@ export const Series: NewChapterOfBookmark[] = [
     id: "7",
     title: "Divine Throne",
     chapter: 45,
-    timeAgo: "1 day ago",
+    timeAgo: "1 day  ",
     source: "MangaScans",
     coverImage:
       "https://madarascans.com/wp-content/uploads/2025/07/2025-07-02-07-34-46-1751484886338.webp",

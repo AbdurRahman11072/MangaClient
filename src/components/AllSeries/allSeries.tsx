@@ -8,7 +8,7 @@ const AllSeries = () => {
   return (
     <div>
       <Title title="All Series" subtitle="" />
-      <HomeSeriesCards Series={Series} />
+      <AllSeriesCards Series={Series} />
     </div>
   );
 };
