@@ -12,15 +12,14 @@ const HomeSeriesCards = ({ Series }: seriesCardProps) => {
       {Series.map((series) => (
         <div
           key={series.id}
-          className="w-[100%] sm:w-[70%] md:w-[49%] lg:w-[45%] xl:w-[32.50%] flex gap-2 bg-slate-600/30 rounded-lg p-2"
+          className="w-[100%] sm:w-[80%] md:w-[49%] lg:w-[45%] xl:w-[32.50%] flex justify-center gap-2 bg-slate-600/30 rounded-lg p-2"
         >
-          <div className="w-[165px] h-56 sm:h-64 md:h-60 lg:h-64 rounded-lg overflow-hidden bg-white">
+          <div className="relative w-[165px] sm:w-[200px] h-56 sm:h-64 md:h-60 lg:h-64 rounded-lg overflow-hidden bg-white">
             <Image
               src={series.coverImage}
               alt={`${series.title} cover image`}
-              width={400}
-              height={400}
-              className="object-contain"
+              fill
+              className="object-cover"
             />
           </div>
           <div className="w-[50%] space-y-2">

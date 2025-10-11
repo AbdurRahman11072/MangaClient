@@ -9,6 +9,7 @@ const AllSeries = () => {
     <div>
       <Title title="All Series" subtitle="" />
       <AllSeriesCards Series={Series} />
+      <HomeSeriesCards Series={Series} />
     </div>
   );
 };
